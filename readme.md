@@ -8,3 +8,4 @@ setting up testing for our app
 -install @babel/preset-react to make jsx work in test cases
 -include @babel/preset-react inside my babel config
 - install @testing-library/jest-dom
+- jest.config.js OR add "test:coverage": "CI=true npm test -- --env=jsdom --coverage" in package.json
